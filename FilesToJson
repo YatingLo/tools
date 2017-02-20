@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+
+"""
+檢查專案中的重複圖檔
+將專案圖複製到一個資料夾
+產生檔名和原路徑對應資料檔
+
+"""
+
+if __name__ == '__main__':
+    print("Hellow World\n")
+    print("Hellow World2\n")
