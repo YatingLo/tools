@@ -1,0 +1,21 @@
+{
+	"file_list": [
+		"GtMobile/Lua/BlackJackResource",
+		"GtMobile/Lua/CrossCommonResource",
+		"GtMobile/Lua/FantanResource",
+		"GtMobile/Lua/LeaderboardResource",
+		"GtMobile/Lua/LobbyMenuResource",
+		"GtMobile/Lua/LuaResource",
+		"GtMobile/Lua/PlayerInformationResource",
+		"GtMobile/Lua/Poker13Resource",
+		"GtMobile/Lua/NiuNiuResource",
+		"GtMobile/Lua/RouletteResource",
+		"GtMobile/Lua/SicBoResource",
+		"GtMobile/Lua/StarMjResource",
+		"GtMobile/Lua/StarAgentResource",
+		"GtMobile/CommonResource",
+		"GtMobile/ReferenceResource",
+		"Big2/iPhoneClient/Big2/CommonGameResource",
+		"Big2/iPhoneClient/Big2/CommonGameResource/GameResources"
+	]
+}

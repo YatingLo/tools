@@ -1,0 +1,9 @@
+{
+	"max_size": 2048,
+	"file_list": [{
+		"from": "../../RawImage/Loading",
+		"to": "../../GtMobile/CommonResource/Loading",
+		"name": "LoadingV2"
+	}
+	]
+}

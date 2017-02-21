@@ -1,0 +1,8 @@
+1.將TexturePacker加到加到環境變數Path中
+  Windows
+  ex: ;C:\Program Files (x86)\TexturePacker\bin
+  
+2.在DirectionList.json設定製作合圖的資料夾
+  "from": "Lobby/Lobby", --> 會把這個資料夾下的圖檔製作成合圖
+  "to": "../assets/resources/image/Lobby/Main", --> 產生的檔案存在這個資料夾底下
+  "name": "Lobby" --> 設定plist和png的檔名 ex Lobby.png, Lobby.plist
