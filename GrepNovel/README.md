@@ -23,3 +23,9 @@ Run command in cs folder
 ```
 python -m pip install -r requirements.txt
 ```
+
+## Run Test
+
+```
+python -m unittest
+```
