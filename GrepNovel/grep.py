@@ -47,7 +47,7 @@ def get_content(chapter_url):
     html_doc = r.text
     soup = BeautifulSoup(html_doc, "html.parser")
     title = soup.find('div', class_='name').text
-    content = title + '\n' + soup.find('div', class_='content').text
+    content = f"\n\n{title}\n" + soup.find('div', class_='content').text
 
     print(f"...{title} done")
 
@@ -55,8 +55,6 @@ def get_content(chapter_url):
 
 if __name__ == '__main__':
     URL = sys.argv[1]
-
-    print(URL)
 
     title, chapters = get_infos(URL)
 
