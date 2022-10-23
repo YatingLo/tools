@@ -5,6 +5,7 @@ https://czbooks.net/n/c542oi
 
 import sys
 import os
+import re
 
 import requests
 from bs4 import BeautifulSoup
@@ -18,6 +19,7 @@ def get_infos(url):
     html_doc = r.text
     soup = BeautifulSoup(html_doc, "html.parser")
     title = soup.find("span",class_="title").text
+    title = re.sub(r"[《》]","",title)
     urls = []
 
     table = soup.find(id="chapter-list")
